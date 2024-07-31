@@ -1,6 +1,6 @@
 # Traffic-light-classification-code
 
-# 배경 블러링 코드
+## 배경 블러링 코드
 
     import cv2
     
