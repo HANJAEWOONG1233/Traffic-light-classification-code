@@ -13,24 +13,24 @@
     import shutil
 
 
-### 사용자로부터 이미지를 업로드 받음
+## 사용자로부터 이미지를 업로드 받음
     uploaded = files.upload()
 
 
-# 결과 이미지를 저장할 폴더 생성
+## 결과 이미지를 저장할 폴더 생성
     output_folder = "blurred_image"
     
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
 
-# 초록색 범위 설정
+## 초록색 범위 설정
     lower_green = np.array([35, 50, 50])
     
     upper_green = np.array([85, 255, 255])
 
 
-# 빨간색 범위 설정 (빨간색은 두 개의 범위로 나뉘어 있음)
+## 빨간색 범위 설정 (빨간색은 두 개의 범위로 나뉘어 있음)
     lower_red1 = np.array([0, 50, 50])
     
     upper_red1 = np.array([10, 255, 255])
@@ -40,7 +40,7 @@
     upper_red2 = np.array([180, 255, 255])
 
 
-# 함수: 가장 큰 연결 요소 찾기
+## 함수: 가장 큰 연결 요소 찾기
     def find_largest_contour(mask):
         contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         if len(contours) == 0:
@@ -113,8 +113,8 @@
         except Exception as e:
             print(f"Error processing {image_path}: {e}")
 
-# 결과 이미지를 Zip 파일로 압축
+## 결과 이미지를 Zip 파일로 압축
     shutil.make_archive(output_folder, 'zip', output_folder)
 
-# 압축된 Zip 파일 다운로드
+## 압축된 Zip 파일 다운로드
     files.download(f"{output_folder}.zip")
