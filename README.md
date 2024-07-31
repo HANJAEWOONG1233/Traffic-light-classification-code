@@ -2,15 +2,15 @@
 
 # 배경 블러링 코드
 
-import cv2
-
-import numpy as np
-
-from google.colab import files
-
-import os
-
-import shutil
+    import cv2
+    
+    import numpy as np
+    
+    from google.colab import files
+    
+    import os
+    
+    import shutil
 
 
 # 사용자로부터 이미지를 업로드 받음
