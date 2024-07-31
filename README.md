@@ -13,7 +13,7 @@
     import shutil
 
 
-# 사용자로부터 이미지를 업로드 받음
+### 사용자로부터 이미지를 업로드 받음
     uploaded = files.upload()
 
 
