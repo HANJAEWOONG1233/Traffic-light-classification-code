@@ -114,7 +114,7 @@
             print(f"Error processing {image_path}: {e}")
 
 # 결과 이미지를 Zip 파일로 압축
-shutil.make_archive(output_folder, 'zip', output_folder)
+    shutil.make_archive(output_folder, 'zip', output_folder)
 
 # 압축된 Zip 파일 다운로드
-files.download(f"{output_folder}.zip")
+    files.download(f"{output_folder}.zip")
