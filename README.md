@@ -175,6 +175,7 @@ files.download(f"{output_folder}.zip")
 ![result_image_grid (2)](https://github.com/user-attachments/assets/6f026c49-5648-4c08-9293-f99323b7cc1c)
 
 - EV3 빨간 신호등 사진 전체 블러링 데이터
+![result_image_grid (11)](https://github.com/user-attachments/assets/a9677f3d-ab1d-465d-8845-0b2bfbb1243d)
 
 - EV3 초록 신호등 사진 전체 블러링 데이터
 ![result_image_grid (10)](https://github.com/user-attachments/assets/babbc883-b026-4c44-a1b0-54b6b07b34a6)
