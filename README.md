@@ -168,7 +168,8 @@ files.download(f"{output_folder}.zip")
 # 전처리 결과
 
 - EV3 빨간 신호등 원본 데이터
-![result_image_grid (1)](https://github.com/user-attachments/assets/b79d974b-747c-4a6d-ae74-662f1f5719a6)
+![result_image_grid (7)](https://github.com/user-attachments/assets/e0a58f3b-479f-4202-a30c-c7b79d9159f8)
+
 
 - EV3 초록 신호등 원본 데이터
 ![result_image_grid (2)](https://github.com/user-attachments/assets/6f026c49-5648-4c08-9293-f99323b7cc1c)
@@ -184,6 +185,10 @@ files.download(f"{output_folder}.zip")
 ![result_image_grid (3)](https://github.com/user-attachments/assets/3f43aba6-2e11-4011-9127-8bc464285bee)
 
   
+# 성능 비교 결과
+
+
+
 
 
 
