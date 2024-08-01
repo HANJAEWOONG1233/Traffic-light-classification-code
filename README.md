@@ -130,9 +130,9 @@ shutil.make_archive(output_folder, 'zip', output_folder)
 files.download(f"{output_folder}.zip")
 ```
 
-3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, 넣는다. 
+3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, 데이터를 추가한다.
+![image](https://github.com/user-attachments/assets/05e1ffe1-62c8-4fd8-bdcb-3f7df5c1222d)
 
-![image](https://github.com/user-attachments/assets/5ff9c0b7-bf9b-4deb-8dd7-b41dd2d6e74d)
 
 
 
