@@ -167,23 +167,23 @@ files.download(f"{output_folder}.zip")
 
 # 전처리 결과
 
-- EV3 빨간 신호등 원본 데이터
+- EV3 빨간 신호등 사진 원본 데이터
 ![result_image_grid (7)](https://github.com/user-attachments/assets/e0a58f3b-479f-4202-a30c-c7b79d9159f8)
 
 
-- EV3 초록 신호등 원본 데이터
+- EV3 초록 신호등 사진 원본 데이터
 ![result_image_grid (2)](https://github.com/user-attachments/assets/6f026c49-5648-4c08-9293-f99323b7cc1c)
 
-- EV3 빨간 신호등 전체 블러링 데이터
+- EV3 빨간 신호등 사진 전체 블러링 데이터
 
-- EV3 초록 신호등 전체 블러링 데이터
+- EV3 초록 신호등 사진 전체 블러링 데이터
 ![result_image_grid (10)](https://github.com/user-attachments/assets/babbc883-b026-4c44-a1b0-54b6b07b34a6)
 
-- EV3 빨간 신호등 객체 제외 블러링 데이터
+- EV3 빨간 신호등 사진 객체 제외 블러링 데이터
 ![result_image_grid (8)](https://github.com/user-attachments/assets/496b9c63-7d3c-4537-85df-35b7d413c3f8)
 
 
-- EV3 초록 신호등 객체 제외 블러링 데이터
+- EV3 초록 신호등 사진 객체 제외 블러링 데이터
 ![result_image_grid (9)](https://github.com/user-attachments/assets/3db2574f-16b7-4e9a-b9ae-2303e10ba05c)
 
 
