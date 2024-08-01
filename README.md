@@ -150,12 +150,16 @@ files.download(f"{output_folder}.zip")
 
 
 6. valid 데이터에 대한 accuracy와 loss를 확인하고, model testing을 클릭한후, classify all을 클릭하여 학습한 모델을 바탕으로 분류를 진행한다.
+
 ![image](https://github.com/user-attachments/assets/cc80b0ee-e342-40d3-ab64-ac113cf07325)
 ![44444444444444444444444444444444](https://github.com/user-attachments/assets/8ed19cca-66ec-4dcf-b9f2-efbca8b19cb3)
 
-7. test 데이터를 바탕으로 모델 테스트를 진행했을때의 정확도를 측정한다.
+
+7. test 데이터를 바탕으로 모델 테스트를 진행했을때의 정확도를 측정하고, 6번에서 구했던 로스를 기록한다.
 ![image](https://github.com/user-attachments/assets/14946022-1faf-4652-9fee-9926d17a4ecc)
 
+
+#결과
 
 
 
