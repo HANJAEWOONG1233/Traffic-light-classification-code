@@ -15,7 +15,7 @@ CNN 모델 학습시에 들어가는 가우시안 블러의 데이터 전처리 
 
 
 # 필수 조건
--  Python 3.3+
+-  Python 3.8+
 -  OPENCV
 -  EDGE IMPULSE
 
