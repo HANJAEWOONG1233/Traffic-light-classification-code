@@ -145,4 +145,9 @@ files.download(f"{output_folder}.zip")
 
 
 
+5. Classifier 에 들어가서 에포크(10), 학습률(0.0005)로 설정하여 start training을 눌러 전처리된 데이터를 바탕으로 CNN 분류 모델 훈련을 시작.(CNN 모델은 EDGE IMPULSE에서 기본적으로 주어지는 간단한 CNN 모델을 사용.)
+![333333333333333333333333333](https://github.com/user-attachments/assets/b530f487-a4d1-4afa-917d-0b2d96c2f49e)
+
+
+
 
