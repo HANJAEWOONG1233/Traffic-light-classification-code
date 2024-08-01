@@ -20,7 +20,7 @@ CNN 모델 학습시에 들어가는 가우시안 블러의 데이터 전처리 
 -  EDGE IMPULSE
 
 
-# 용법
+# 방법
 1. 레포지토리에 있는 원본 파일(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3)을 다운로드 받습니다.
 2. 다운 받은 파일들을 아래 코드에 넣어 가우시안 블러 데이터 전처리를 진행한다. 이때 빨간색 사진을 위한 전처리 폴더와 초록색 사진을 위한 전처리 폴더 2개로 나누어 사진을 2종류로 나누어 저장한다.(output_folder = "blurred_image" 여기서 폴더명을 바꾸고선 데이터 전처리 진행하는 것을 추천함.)
 
@@ -165,7 +165,7 @@ files.download(f"{output_folder}.zip")
 ![image](https://github.com/user-attachments/assets/14946022-1faf-4652-9fee-9926d17a4ecc)
 
 
-# 결과
+# 전처리 결과
 
 - EV3 빨간 신호등 원본 데이터
 ![result_image_grid (1)](https://github.com/user-attachments/assets/b79d974b-747c-4a6d-ae74-662f1f5719a6)
