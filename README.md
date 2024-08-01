@@ -149,5 +149,8 @@ files.download(f"{output_folder}.zip")
 ![333333333333333333333333333](https://github.com/user-attachments/assets/b530f487-a4d1-4afa-917d-0b2d96c2f49e)
 
 
+6. valid 데이터에 대한 accuracy와 loss를 확인하고, model testing을 클릭한후, classify all을 클릭하여 학습한 모델을 바탕으로 분류를 진행한다.
+![image](https://github.com/user-attachments/assets/cc80b0ee-e342-40d3-ab64-ac113cf07325)
+![44444444444444444444444444444444](https://github.com/user-attachments/assets/8ed19cca-66ec-4dcf-b9f2-efbca8b19cb3)
 
-
+7. test 데이터를 바탕으로 
