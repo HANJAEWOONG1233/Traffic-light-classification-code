@@ -183,6 +183,7 @@ files.download(f"{output_folder}.zip")
 
 
 - EV3 초록 신호등 객체 제외 블러링 데이터
+![result_image_grid (9)](https://github.com/user-attachments/assets/3db2574f-16b7-4e9a-b9ae-2303e10ba05c)
 
 
   
