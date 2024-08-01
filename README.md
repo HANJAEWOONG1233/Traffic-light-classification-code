@@ -177,6 +177,7 @@ files.download(f"{output_folder}.zip")
 - EV3 빨간 신호등 전체 블러링 데이터
 
 - EV3 초록 신호등 전체 블러링 데이터
+![result_image_grid (10)](https://github.com/user-attachments/assets/babbc883-b026-4c44-a1b0-54b6b07b34a6)
 
 - EV3 빨간 신호등 객체 제외 블러링 데이터
 ![result_image_grid (8)](https://github.com/user-attachments/assets/496b9c63-7d3c-4537-85df-35b7d413c3f8)
