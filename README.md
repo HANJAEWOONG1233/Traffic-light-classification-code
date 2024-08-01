@@ -146,8 +146,9 @@ files.download(f"{output_folder}.zip")
 5. Create Impulse에 들어가서 Add an input Block 을 클릭.
 ![image](https://github.com/user-attachments/assets/ded38b00-afc9-4026-9348-b1cc60c26d42)
 
-6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 불필요한 정보를 제외하고자 48 * 48의 수치로 조정.
-![image](https://github.com/user-attachments/assets/bbbdefd4-e824-49f6-845c-b9de2dccdcec)
+6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 불필요한 정보를 제외하고자 48 * 48의 수치로 조정하고 Save Impulse를 클릭하여 변경내용 저장.
+![66666666666666666](https://github.com/user-attachments/assets/33ef9e2b-11f4-4728-8dfd-3ed34941a65e)
+
 
 
 5. Classifier 에 들어가서 에포크(10), 학습률(0.0005)로 설정하여 start training을 눌러 전처리된 데이터를 바탕으로 CNN 분류 모델 훈련을 시작.(CNN 모델은 EDGE IMPULSE에서 기본적으로 주어지는 간단한 CNN 모델을 사용.)
