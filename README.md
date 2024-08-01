@@ -131,6 +131,7 @@ files.download(f"{output_folder}.zip")
 ```
 
 3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, Data Acquisition > ADD DATA를 클릭한다.
+![11111111111111111111](https://github.com/user-attachments/assets/5bb83d68-8f99-4858-8f3a-e1eab6fb15ee)
 
 
 
