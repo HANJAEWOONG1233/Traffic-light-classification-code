@@ -1,7 +1,8 @@
 # 가우시안 블러 전처리 기법의 적용범위에 따른 CNN 분류 모델 성능 향상 연구
 
 
-![image](https://github.com/user-attachments/assets/43402e8e-cebe-4907-b888-1112477f1483)
+![image](https://github.com/user-attachments/assets/53e2f781-e3b5-491a-987f-c67b4715ebfe)
+
 
 
 
