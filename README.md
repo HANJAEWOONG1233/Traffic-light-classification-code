@@ -186,3 +186,9 @@ files.download(f"{output_folder}.zip")
   
 
 
+
+
+
+# 저자
+최은실/eunsil0733@naver.com, 한재웅/hanjaewoong1233@gmail.com
+
