@@ -130,9 +130,9 @@ shutil.make_archive(output_folder, 'zip', output_folder)
 files.download(f"{output_folder}.zip")
 ```
 
-3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, 데이터를 추가한다.
+3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, IMPULSE DESIGN > IMAGE > ADD DATA 순으로 들어가 training을 선택하고 전처리된 빨간색/초록색된 데이터를 각각 다른 label을 붙인 다음 추가한다.
 
-
+4. training data를 추가하였으면 이후, test 를 선택하고 test 데이터를 추가한다.
 
 
 
