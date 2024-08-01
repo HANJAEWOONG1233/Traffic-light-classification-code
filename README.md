@@ -130,9 +130,12 @@ shutil.make_archive(output_folder, 'zip', output_folder)
 files.download(f"{output_folder}.zip")
 ```
 
-3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, IMPULSE DESIGN > IMAGE > ADD DATA 순으로 들어가 training을 선택하고 전처리된 빨간색/초록색된 데이터를 각각 다른 label을 붙인 다음 추가한다.
+3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, IMPULSE DESIGN > IMAGE > ADD DATA 순으로 들어가 training을 선택하고 전처리된 빨간색/초록색된 데이터(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3를 전처리해서 나온 결과)를 각각 다른 label을 설정한 다음 추가한다.
+![11111111111111111111](https://github.com/user-attachments/assets/1d90fcf0-0b9b-40b1-bb2f-e792dd956906)
 
-4. training data를 추가하였으면 이후, test 를 선택하고 test 데이터를 추가한다.
+
+
+4. training data를 추가하였으면 이후, test 를 선택하고 test 데이터(RED_TEST_PICTURES,GREEN_TEST_PICTURES)를 각각 다른 label로 설정하여 추가한다.
 
 
 
