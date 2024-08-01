@@ -130,8 +130,8 @@ shutil.make_archive(output_folder, 'zip', output_folder)
 files.download(f"{output_folder}.zip")
 ```
 
-3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, IMPULSE DESIGN > IMAGE > ADD DATA 순으로 진행한다. 
-![11111111111111111111](https://github.com/user-attachments/assets/1d90fcf0-0b9b-40b1-bb2f-e792dd956906)
+3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, Data Acquisition > ADD DATA를 클릭한다.
+
 
 
 
