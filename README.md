@@ -21,8 +21,8 @@ CNN 모델 학습시에 들어가는 가우시안 블러의 데이터 전처리 
 
 
 # 용법
-1. 원본 파일들을 다운로드 하세요.
-2. 다운 받은 파일들을 아래 링크코드를 활용하여 데이터 전처리를 진행합니다. 이때 빨간색 사진을 위한 전처리 폴더와 초록색 사진을 위한 전처리 폴더 2개로 나누어 사진을 2종류로 나누어 저장한다.(output_folder = "blurred_image" 여기서 폴더명을 바꾸고선 데이터 전처리 진행하는 것을 추천함.)
+1. 레포지토리에 있는 원본 파일(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3)을 다운로드 받습니다.
+2. 다운 받은 파일들을 아래 코드에 넣어 가우시안 블러 데이터 전처리를 진행한다. 이때 빨간색 사진을 위한 전처리 폴더와 초록색 사진을 위한 전처리 폴더 2개로 나누어 사진을 2종류로 나누어 저장한다.(output_folder = "blurred_image" 여기서 폴더명을 바꾸고선 데이터 전처리 진행하는 것을 추천함.)
 
 ```python
 # 배경 블러링 코드
@@ -140,7 +140,7 @@ files.download(f"{output_folder}.zip")
 
 
 
-4. training을 선택하고 전처리된 빨간색/초록색된 데이터(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3를 전처리해서 나온 결과)를 각각 다른 label을 설정한 다음 추가하고 업로드한다. 이후, test 를 선택하고 test 데이터(RED_TEST_PICTURES,GREEN_TEST_PICTURES)를 각각 다른 label로 설정하여 추가한다.
+4. training을 선택하고 전처리된 초록색/빨간색 데이터(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3를 전처리해서 나온 결과)를 각각 다른 label을 설정한 다음 추가하고 업로드한다. 이후, test 를 선택하고 test 데이터(RED_TEST_PICTURES,GREEN_TEST_PICTURES)를 각각 다른 label로 설정하여 추가한다.
 ![222222222222222222222222222222222222](https://github.com/user-attachments/assets/0ad68654-f7cb-401d-8967-aba0205eb70c)
 
 
