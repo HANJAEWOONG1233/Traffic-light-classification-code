@@ -155,7 +155,7 @@ files.download(f"{output_folder}.zip")
 ![44444444444444444444444444444444](https://github.com/user-attachments/assets/8ed19cca-66ec-4dcf-b9f2-efbca8b19cb3)
 
 
-7. test 데이터를 바탕으로 모델 테스트를 진행했을때의 정확도를 측정하고, 6번에서 구했던 로스를 기록한다.
+7. test 데이터를 바탕으로 모델 테스트를 진행했을때의 정확도를 측정하고, 6번에서 구했던 로스를 기록.
 ![image](https://github.com/user-attachments/assets/14946022-1faf-4652-9fee-9926d17a4ecc)
 
 
