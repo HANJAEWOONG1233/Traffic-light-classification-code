@@ -146,7 +146,7 @@ files.download(f"{output_folder}.zip")
 5. Create Impulse에 들어가서 Add an input Block 을 클릭.
 ![image](https://github.com/user-attachments/assets/ded38b00-afc9-4026-9348-b1cc60c26d42)
 
-6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 사이즈가 뜨는데, 계산속도와 불필요한 정보를 자르기 위해 48 * 48의 수치로 조정합니다.
+6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 불필요한 정보를 제외하고자 48 * 48의 수치로 조정.
 ![image](https://github.com/user-attachments/assets/bbbdefd4-e824-49f6-845c-b9de2dccdcec)
 
 
