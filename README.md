@@ -22,7 +22,7 @@ CNN 모델 학습시에 들어가는 가우시안 블러의 데이터 전처리 
 
 # 용법
 1. 원본 파일들을 다운로드 하세요.
-2. 다운 받은 파일들을 아래 링크코드를 활용하여 데이터 전처리를 진행합니다.
+2. 다운 받은 파일들을 아래 링크코드를 활용하여 데이터 전처리를 진행합니다. 이때 빨간색 사진을 위한 전처리 폴더와 초록색 사진을 위한 전처리 폴더 2개로 나누어 사진을 2종류로 나누어 저장한다.(output_folder = "blurred_image" 여기서 폴더명을 바꾸고선 데이터 전처리 진행하는 것을 추천함.)
 
 ```python
 # 배경 블러링 코드
@@ -129,6 +129,10 @@ shutil.make_archive(output_folder, 'zip', output_folder)
 # 압축된 Zip 파일 다운로드
 files.download(f"{output_folder}.zip")
 ```
-아아
+
+3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, 넣는다. 
+
+![image](https://github.com/user-attachments/assets/5ff9c0b7-bf9b-4deb-8dd7-b41dd2d6e74d)
+
 
 
