@@ -143,6 +143,11 @@ files.download(f"{output_folder}.zip")
 4. training을 선택하고 전처리된 초록색/빨간색 데이터(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3를 전처리해서 나온 결과)를 각각 다른 label을 설정한 다음 추가하고 업로드한다. 이후, test 를 선택하고 test 데이터(RED_TEST_PICTURES,GREEN_TEST_PICTURES)를 각각 다른 label로 설정하여 추가한다.
 ![222222222222222222222222222222222222](https://github.com/user-attachments/assets/0ad68654-f7cb-401d-8967-aba0205eb70c)
 
+5. Create Impulse에 들어가서 Add an input Block 을 클릭.
+![image](https://github.com/user-attachments/assets/ded38b00-afc9-4026-9348-b1cc60c26d42)
+
+6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 사이즈가 뜨는데, 계산속도와 불필요한 정보를 자르기 위해 48 * 48의 수치로 조정합니다.
+![image](https://github.com/user-attachments/assets/bbbdefd4-e824-49f6-845c-b9de2dccdcec)
 
 
 5. Classifier 에 들어가서 에포크(10), 학습률(0.0005)로 설정하여 start training을 눌러 전처리된 데이터를 바탕으로 CNN 분류 모델 훈련을 시작.(CNN 모델은 EDGE IMPULSE에서 기본적으로 주어지는 간단한 CNN 모델을 사용.)
