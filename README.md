@@ -24,7 +24,7 @@ CNN 모델 학습시에 들어가는 가우시안 블러의 데이터 전처리 
 1. 원본 파일들을 다운로드 하세요.
 2. 다운 받은 파일들을 아래 링크코드를 활용하여 데이터 전처리를 진행합니다.
 
-\\\python
+```python
 # 배경 블러링 코드
 
 import cv2
@@ -128,6 +128,5 @@ shutil.make_archive(output_folder, 'zip', output_folder)
 
 # 압축된 Zip 파일 다운로드
 files.download(f"{output_folder}.zip")
-\\\
 
 
