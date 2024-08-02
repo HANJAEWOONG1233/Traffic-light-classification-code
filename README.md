@@ -147,18 +147,21 @@ files.download(f"{output_folder}.zip")
 ![66666666666666666](https://github.com/user-attachments/assets/33ef9e2b-11f4-4728-8dfd-3ed34941a65e)
 
 
+7. IMAGE > GENERATE FEATURES > GENERATE FEATURES 를 클릭해서, 모델을 생성.
+![8888888888888888888888](https://github.com/user-attachments/assets/51f7b51a-cbdb-4331-99a0-406953ef06b8)
 
-5. Classifier 에 들어가서 에포크(10), 학습률(0.0005)로 설정하여 start training을 눌러 전처리된 데이터를 바탕으로 CNN 분류 모델 훈련을 시작.(CNN 모델은 EDGE IMPULSE에서 기본적으로 주어지는 간단한 CNN 모델을 사용.)
+
+8. Classifier 에 들어가서 에포크(10), 학습률(0.0005)로 설정하여 start training을 눌러 전처리된 데이터를 바탕으로 CNN 분류 모델 훈련을 시작.(CNN 모델은 EDGE IMPULSE에서 기본적으로 주어지는 간단한 CNN 모델을 사용.)
 ![333333333333333333333333333](https://github.com/user-attachments/assets/b530f487-a4d1-4afa-917d-0b2d96c2f49e)
 
 
-6. valid 데이터에 대한 accuracy와 loss를 확인하고, model testing을 클릭한후, classify all을 클릭하여 학습한 모델을 바탕으로 분류를 진행한다.
+9. valid 데이터에 대한 accuracy와 loss를 확인하고, model testing을 클릭한후, classify all을 클릭하여 학습한 모델을 바탕으로 분류를 진행한다.
 
 ![image](https://github.com/user-attachments/assets/cc80b0ee-e342-40d3-ab64-ac113cf07325)
 ![44444444444444444444444444444444](https://github.com/user-attachments/assets/8ed19cca-66ec-4dcf-b9f2-efbca8b19cb3)
 
 
-7. test 데이터를 바탕으로 모델 테스트를 진행했을때의 정확도를 측정하고, 6번에서 구했던 로스를 기록.
+10. test 데이터를 바탕으로 모델 테스트를 진행했을때의 정확도를 측정하고, 6번에서 구했던 로스를 기록.
 ![image](https://github.com/user-attachments/assets/14946022-1faf-4652-9fee-9926d17a4ecc)
 
 
