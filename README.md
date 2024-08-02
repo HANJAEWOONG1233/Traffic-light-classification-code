@@ -177,6 +177,10 @@ files.download(f"{output_folder}.zip")
 - EV3 초록 신호등 사진 객체 제외 블러링 데이터
 ![result_image_grid (9)](https://github.com/user-attachments/assets/3db2574f-16b7-4e9a-b9ae-2303e10ba05c)
 
+- EV3 빨간 신호등 사진 객체 탐지 실패 데이터 사례
+  ![result_image_grid (12)](https://github.com/user-attachments/assets/ac341265-94c3-4002-8d04-ad8509f59f70)
+- EV3 초록 신호등 사진 객체 탐지 실패 데이터 사례
+  ![result_image_grid (13)](https://github.com/user-attachments/assets/5204ce20-6d21-477f-b19b-b6cc6a5b73f8)
 
   
 # 성능 비교 결과
