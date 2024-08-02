@@ -4,12 +4,7 @@ EDGE IMPULSE에 기본 세팅값의 CNN 분류 모델을 학습시켜, EV3 로�
 ![image](https://github.com/user-attachments/assets/53e2f781-e3b5-491a-987f-c67b4715ebfe)
 
 
-
-
-
-
 CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 적용범위을 사진 전체와 객체를 제외한 배경 두 가지의 사례로 나누어 성능을 측정합니다.
-
 
 # 필수 조건
 -  Python 3.8+
@@ -134,9 +129,6 @@ files.download(f"{output_folder}.zip")
 ![11111111111111111111](https://github.com/user-attachments/assets/5bb83d68-8f99-4858-8f3a-e1eab6fb15ee)
 
 
-
-
-
 4. training을 선택하고 전처리된 초록색/빨간색 데이터(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3를 전처리해서 나온 결과)를 각각 다른 label을 설정한 다음 추가하고 업로드한다. 이후, test 를 선택하고 test 데이터(RED_TEST_PICTURES,GREEN_TEST_PICTURES)를 각각 다른 label로 설정하여 추가한다.
 ![222222222222222222222222222222222222](https://github.com/user-attachments/assets/0ad68654-f7cb-401d-8967-aba0205eb70c)
 
@@ -170,7 +162,6 @@ files.download(f"{output_folder}.zip")
 - EV3 빨간 신호등 사진 원본 데이터
 ![result_image_grid (7)](https://github.com/user-attachments/assets/e0a58f3b-479f-4202-a30c-c7b79d9159f8)
 
-
 - EV3 초록 신호등 사진 원본 데이터
 ![result_image_grid (2)](https://github.com/user-attachments/assets/6f026c49-5648-4c08-9293-f99323b7cc1c)
 
@@ -183,14 +174,12 @@ files.download(f"{output_folder}.zip")
 - EV3 빨간 신호등 사진 객체 제외 블러링 데이터
 ![result_image_grid (8)](https://github.com/user-attachments/assets/496b9c63-7d3c-4537-85df-35b7d413c3f8)
 
-
 - EV3 초록 신호등 사진 객체 제외 블러링 데이터
 ![result_image_grid (9)](https://github.com/user-attachments/assets/3db2574f-16b7-4e9a-b9ae-2303e10ba05c)
 
 
   
 # 성능 비교 결과
-
 
 데이터 전처리를 진행하지 않은 데이터를 원본 데이터라 지칭했을때, 사진 전체에 블러링을 적용한 CNN 모델은 성능 향상이 이루어지지 않았음.  
 반면, 객체를 제외한 배경만을 블러링한 데이터를 바탕으로 CNN 분류 모델 학습을 진행했을때, 동일 수의 데이터 전처리를 진행하지 않은 10% 수준의 성능 향상이 이루어짐.
