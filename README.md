@@ -195,7 +195,8 @@ files.download(f"{output_folder}.zip")
 반면, 객체를 제외한 배경만을 블러링한 데이터를 바탕으로 CNN 분류 모델 학습을 진행했을때, 10~25 사이 에포크 구간에서 원본 데이터를 학습시킨 모델의 성능에 비해 성능 향상이 이루어짐.
 
 아래 사진은 데이터 전처리를 거치치 않은 원본 데이터를 학습시킨 모델, 배경 전체에 블러링을 적용한 데이터를 학습시킨 모델, 객체 제외하고 나머지 배경을 블러링한 데이터를 학습시킨 모델 각각을 10번씩 테스트를 진행했을때 나온 정확도와 로스의 평균을 비교한 그래프이다.
-![image](https://github.com/user-attachments/assets/8f972b89-091e-4c72-8bf3-c8b19959e88f)
+![image](https://github.com/user-attachments/assets/a3a142d2-4580-4b3c-a8cb-1be83d1a8ffe)
+
 
 
 ![image](https://github.com/user-attachments/assets/6fa20f42-debd-4891-b308-ee499cfc9e3c)
