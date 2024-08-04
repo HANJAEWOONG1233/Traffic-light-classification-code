@@ -187,14 +187,16 @@ files.download(f"{output_folder}.zip")
 
 먼저 데이터 전처리를 진행했을때, 객체를 최소 50% 이상을 탐지한것을 객체 탐지 성공, 그 이하를 객체 탐지 실패라 분류했을때, 빨간색 신호등 1000장중 154장의 사진, 초록색 신호등 1000장중 112장의 사진들이 객체 탐지가 실패하였음.
 
-![image](https://github.com/user-attachments/assets/e90ba7b5-e9a7-44a8-89ae-03e03659e4af)
+![image](https://github.com/user-attachments/assets/b1b83727-a464-46e5-9135-1a83aa8ab1be)
+
 
 
 데이터 전처리를 진행하지 않은 데이터를 원본 데이터라 지칭했을때, 사진 전체에 블러링을 적용한 CNN 모델은 성능 향상이 이루어지지 않았음.  
 반면, 객체를 제외한 배경만을 블러링한 데이터를 바탕으로 CNN 분류 모델 학습을 진행했을때, 10~25 사이 에포크 구간에서 원본 데이터를 학습시킨 모델의 성능에 비해 성능 향상이 이루어짐.
 
 아래 사진은 데이터 전처리를 거치치 않은 원본 데이터를 학습시킨 모델, 배경 전체에 블러링을 적용한 데이터를 학습시킨 모델, 객체 제외하고 나머지 배경을 블러링한 데이터를 학습시킨 모델 각각을 10번씩 테스트를 진행했을때 나온 정확도와 로스의 평균을 비교한 그래프이다.
-![image](https://github.com/user-attachments/assets/d49f643f-afa5-4a92-9889-3ff625c42efd)
+![image](https://github.com/user-attachments/assets/8f972b89-091e-4c72-8bf3-c8b19959e88f)
+
 
 ![image](https://github.com/user-attachments/assets/6fa20f42-debd-4891-b308-ee499cfc9e3c)
 
