@@ -196,7 +196,8 @@ files.download(f"{output_folder}.zip")
 아래 사진은 데이터 전처리를 거치치 않은 원본 데이터를 학습시킨 모델, 배경 전체에 블러링을 적용한 데이터를 학습시킨 모델, 객체 제외하고 나머지 배경을 블러링한 데이터를 학습시킨 모델 각각을 10번씩 테스트를 진행했을때 나온 정확도와 로스의 평균을 비교한 그래프이다.
 ![image](https://github.com/user-attachments/assets/f501623b-e25f-4d07-a92c-3e8e8b196184)
 
-![image](https://github.com/user-attachments/assets/3ca5c6b7-db18-46b4-8e17-848dbc18927c)
+![image](https://github.com/user-attachments/assets/75872a55-26b7-49fc-b938-75ce4fdeb6fc)
+
 
 
 
