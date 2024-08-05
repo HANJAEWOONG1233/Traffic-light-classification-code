@@ -1,0 +1,38 @@
+# 사진 전체 블러링 코드
+# 코랩에서 돌리는 것을 추천
+
+import cv2
+import numpy as np
+from google.colab import files
+import os
+import shutil
+
+# 사용자로부터 이미지를 업로드 받음
+uploaded = files.upload()
+
+# 결과 이미지를 저장할 폴더 생성
+output_folder = "(11,11),green_all_blurred"
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
+for image_path in uploaded.keys():
+    try:
+        # 이미지 읽기
+        img = cv2.imdecode(np.frombuffer(uploaded[image_path], dtype=np.uint8), cv2.IMREAD_COLOR)
+
+        # 이미지를 블러 처리
+        blurred_img = cv2.GaussianBlur(img, (11, 11), 0)
+
+        # 결과 이미지 저장
+        output_path = os.path.join(output_folder, f"blurred_{image_path}")
+        cv2.imwrite(output_path, blurred_img)
+        print(f"Processed image saved as {output_path}")
+
+    except Exception as e:
+        print(f"Error processing {image_path}: {e}")
+
+# 결과 이미지를 Zip 파일로 압축
+shutil.make_archive(output_folder, 'zip', output_folder)
+
+# 압축된 Zip 파일 다운로드
+files.download(f"{output_folder}.zip")
