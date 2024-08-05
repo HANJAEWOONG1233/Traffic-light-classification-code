@@ -17,7 +17,13 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 
 2. 다운 받은 파일들을 Data_preprocessing_code 파일에 있는 코드들에 넣어 사진 전체/객체 제외 배경에 대한 가우시안 블러 데이터 전처리를 진행합니다. 이때 사진 전체를 블러링하는 빨간색 신호등 사진을 위한 폴더, 사진 전체를 블러링하는 초록색 신호등 사진을 위한 폴더, 빨간 신호등 객체 제외 나머지 배경만을 블러링하는 사진들을 위한 폴더, 초록 신호등 객체 제외 나머지 배경만을 블러링하는 사진들을 위한 폴더 4개로 나누어 사진을 4종류로 나누어 저장한다.(output_folder = "blurred_image" 여기서 폴더명을 바꾸고선 데이터 전처리 진행하는 것을 추천함.)
 
+-사진 전체 블러링 코드 순서도
+![image](https://github.com/user-attachments/assets/33c5d353-2408-4312-ac42-cb151121c9bd)
 
+-객체 제외 나머지 배경 블러링 코드 순서도
+![image](https://github.com/user-attachments/assets/0531a587-8b84-42ad-bcf0-2fff6ea3f4ee)
+HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 RGB보다 더 다양한 영역의 초록색,빨간색을 인식할 수 있기 때문에, HSV 변환하여 마스킹을 적용.
+색상 마스킹을 활용하여 신호등을 찾기 위해, 사진내에서 찾은 마스킹들중 제일 큰 것을 신호등으로 인식하게 함.(다만 이 방법은 사진에 따라 다른 물체를 신호등으로 인식해서 나머지를 블러처리 한다는 한계점이 존재.)
 
 
 3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, Data Acquisition > ADD DATA를 클릭한다.
@@ -30,7 +36,7 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 5. Create Impulse에 들어가서 Add an input Block 을 클릭.
 ![image](https://github.com/user-attachments/assets/ded38b00-afc9-4026-9348-b1cc60c26d42)
 
-6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 불필요한 정보를 제외하고자 48 * 48의 수치로 조정하고 Save Impulse를 클릭하여 변경내용 저장.
+6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 일정한 사진 크기를 위해 48 * 48의 수치로 조정하고 Save Impulse를 클릭하여 변경내용 저장.
 ![66666666666666666](https://github.com/user-attachments/assets/33ef9e2b-11f4-4728-8dfd-3ed34941a65e)
 
 
@@ -74,6 +80,7 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 
 - EV3 빨간 신호등 사진 객체 탐지 실패 데이터 사례
   ![result_image_grid (12)](https://github.com/user-attachments/assets/ac341265-94c3-4002-8d04-ad8509f59f70)
+  
 - EV3 초록 신호등 사진 객체 탐지 실패 데이터 사례
   ![result_image_grid (13)](https://github.com/user-attachments/assets/5204ce20-6d21-477f-b19b-b6cc6a5b73f8)
 
