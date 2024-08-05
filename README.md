@@ -36,7 +36,7 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 5. Create Impulse에 들어가서 Add an input Block 을 클릭.
 ![image](https://github.com/user-attachments/assets/ded38b00-afc9-4026-9348-b1cc60c26d42)
 
-6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 일정한 사진 크기를 위해 48 * 48의 수치로 조정하고 Save Impulse를 클릭하여 변경내용 저장.
+6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 일정한 사진 크기를 위해 48 * 48의 수치로 조정하고 Save Impulse를 클릭하여 변경내용 저장. (사진을 일정한 크기로 조정하는 이유는 데이터간의 일관성을 확보하고, 성능을 개선하기 위함임. 데이터 일관성 미확보시 특정 데이터 셋에 의한 데이터 편향이나 데이터 과적합 발생할 수 있음.)
 ![66666666666666666](https://github.com/user-attachments/assets/33ef9e2b-11f4-4728-8dfd-3ed34941a65e)
 
 
