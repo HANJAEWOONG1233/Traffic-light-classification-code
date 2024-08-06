@@ -148,12 +148,12 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 
 
 
-위 그래프의 수치를 분석해서 표로 정리하면,
+ 위 그래프의 수치를 분석해서 표로 정리하면,
 
-<img width="545" alt="image" src="https://github.com/user-attachments/assets/4d8428fa-be45-4559-b0ae-59e57de25edb">
+   <img width="545" alt="image" src="https://github.com/user-attachments/assets/4d8428fa-be45-4559-b0ae-59e57de25edb">
 
 
-약 10%의 사진 갯수가 감소하더라도, 객체 제외 배경 블러링을 활용한다면 동등 이상의 효과를 가짐.
+   약 10%의 사진 갯수가 감소하더라도, 객체 제외 배경 블러링을 활용한다면 동등 이상의 효과를 가짐.
 
 
 
