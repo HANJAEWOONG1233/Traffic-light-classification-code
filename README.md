@@ -18,7 +18,8 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 2. 다운 받은 파일들을 Data_preprocessing_code 파일에 있는 코드들에 넣어 사진 전체/객체 제외 배경에 대한 가우시안 블러 데이터 전처리를 진행합니다. 이때 사진 전체를 블러링하는 빨간색 신호등 사진을 위한 폴더, 사진 전체를 블러링하는 초록색 신호등 사진을 위한 폴더, 빨간 신호등 객체 제외 나머지 배경만을 블러링하는 사진들을 위한 폴더, 초록 신호등 객체 제외 나머지 배경만을 블러링하는 사진들을 위한 폴더 4개로 나누어 사진을 4종류로 나누어 저장한다.(output_folder = "blurred_image" 여기서 폴더명을 바꾸고선 데이터 전처리 진행하는 것을 추천함.)
 
 -사진 전체 블러링 코드 순서도
-![image](https://github.com/user-attachments/assets/33c5d353-2408-4312-ac42-cb151121c9bd)
+![Uploading image.png…]()
+
 
 -객체 제외 나머지 배경 블러링 코드 순서도
 ![image](https://github.com/user-attachments/assets/0531a587-8b84-42ad-bcf0-2fff6ea3f4ee)
