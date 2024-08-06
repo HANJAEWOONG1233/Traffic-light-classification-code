@@ -102,7 +102,8 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 
 먼저 데이터 전처리를 진행했을때, 객체를 최소 50% 이상을 탐지한것을 객체 탐지 성공, 그 이하를 객체 탐지 실패라 분류했을때, 빨간색 신호등 1000장중 154장의 사진, 초록색 신호등 1000장중 112장의 사진들이 객체 탐지가 실패하였음.
 
-<img width="547" alt="image" src="https://github.com/user-attachments/assets/98ebd21e-1751-4fda-9ebe-b8f68a2ff722">
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/b2f90ee8-d900-4597-aad8-32c95c5dd31d">
+
 
 
 
