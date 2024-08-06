@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a70c3587-888c-4b51-9932-d424f64fb438)# 가우시안 블러 전처리 기법의 적용범위에 따른 CNN 분류 모델 성능 향상 연구
+# 가우시안 블러 전처리 기법의 적용범위에 따른 CNN 분류 모델 성능 향상 연구
 
 EDGE IMPULSE에 기본 세팅값의 CNN 분류 모델을 학습시켜, EV3 로봇에 들어가는 신호등을 구분하는 성능 비교를 진행합니다. 아래는 사용된 CNN 구조입니다.
 ![image](https://github.com/user-attachments/assets/53e2f781-e3b5-491a-987f-c67b4715ebfe)
@@ -116,7 +116,8 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 각각을 에포크 10,15,20,25에서 각각 10번씩 테스트를 진행했을때 나온 정확도와 로스의 평균을 비교한 그래프이다.
 
 
-![image](https://github.com/user-attachments/assets/6f703f0b-a518-434f-bb99-71840b0572df)
+![image](https://github.com/user-attachments/assets/0b921665-006d-4ded-891b-e79d4f85bb0f)
+
 
 
 
