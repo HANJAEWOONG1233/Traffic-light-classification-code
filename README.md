@@ -123,7 +123,8 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 
 
 
-![image](https://github.com/user-attachments/assets/00398dd0-7d1e-4d1d-8c96-9327fd7062a1)
+![image](https://github.com/user-attachments/assets/599e5218-66c1-40eb-b33c-e9dcbeb2b479)
+
 
 
 
