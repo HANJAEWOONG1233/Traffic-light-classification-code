@@ -29,7 +29,7 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 - 객체 제외 나머지 배경 블러링 코드 순서도
 
 
-     ![image](https://github.com/user-attachments/assets/7c9e306b-c45c-419f-873a-d09f6b0b63c9)
+      ![image](https://github.com/user-attachments/assets/7c9e306b-c45c-419f-873a-d09f6b0b63c9)
 
 
 
