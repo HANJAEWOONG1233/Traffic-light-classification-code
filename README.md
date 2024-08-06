@@ -116,7 +116,8 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 각각을 에포크 10,15,20,25에서 각각 10번씩 테스트를 진행했을때 나온 정확도와 로스의 평균을 비교한 그래프이다.
 
 
-![image](https://github.com/user-attachments/assets/0b921665-006d-4ded-891b-e79d4f85bb0f)
+<img width="805" alt="image" src="https://github.com/user-attachments/assets/033890af-be2f-4b03-9dc3-8a568f804346">
+
 
 
 
