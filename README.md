@@ -131,9 +131,10 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 
 
 
-위 그래프를 분석해서 표로 정리하면,
+위 그래프의 수치를 분석해서 표로 정리하면,
 
-![image](https://github.com/user-attachments/assets/754609e8-55d3-464b-a64a-c7e77314fe58)
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/6e6e2685-0835-47c0-813b-f18c367da0e6">
+
 
 
 
