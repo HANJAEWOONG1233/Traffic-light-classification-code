@@ -36,18 +36,24 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 
 
 HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 RGB보다 더 다양한 영역의 초록색,빨간색을 인식할 수 있기 때문에, HSV 변환하여 마스킹을 적용.
-색상 마스킹을 활용하여 신호등을 찾기 위해, 사진내에서 찾은 마스킹들중 제일 큰 것을 신호등으로 인식하게 함.(다만 이 방법은 사진에 따라 다른 물체를 신호등으로 인식해서 나머지를 블러처리 한다는 한계점이 존재.)
+색상 마스킹을 활용하여 신호등을 찾기 위해, 사진내에서 찾은 마스킹들중 제일 큰 것을 신호등으로 인식하게 함.
+(다만 이 방법은 사진에 따라 다른 물체를 신호등으로 인식해서 나머지를 블러처리 한다는 한계점이 존재.)
+
+
 
 
 3. 빨간색 신호등과 초록색 신호등 각각의 전처리된 데이터를 EDGE IMPULSE 사이트에 접속하여 회원가입 한 후, Data Acquisition > ADD DATA를 클릭한다.
 ![11111111111111111111](https://github.com/user-attachments/assets/5bb83d68-8f99-4858-8f3a-e1eab6fb15ee)
 
 
+
 4. training을 선택하고 전처리된 초록색/빨간색 데이터(Original_green_traffic_pictures_from_EV3,Original_red_traffic_pictures_from_EV3를 전처리해서 나온 결과)를 각각 다른 label을 설정한 다음 추가하고 업로드한다. 이후, test 를 선택하고 test 데이터(RED_TEST_PICTURES,GREEN_TEST_PICTURES)를 각각 다른 label로 설정하여 추가한다.
 ![222222222222222222222222222222222222](https://github.com/user-attachments/assets/0ad68654-f7cb-401d-8967-aba0205eb70c)
 
+
 5. Create Impulse에 들어가서 Add an input Block 을 클릭.
 ![image](https://github.com/user-attachments/assets/ded38b00-afc9-4026-9348-b1cc60c26d42)
+
 
 6. 클릭후 IMAGES에 해당하는 ADD 버튼을 누르면 사진의 수치를 조정할 수 있는 칸이 뜨는데, 계산속도와 일정한 사진 크기를 위해 48 * 48의 수치로 조정하고 Save Impulse를 클릭하여 변경내용 저장. (사진을 일정한 크기로 조정하는 이유는 데이터간의 일관성을 확보하고, 성능을 개선하기 위함임. 데이터 일관성 미확보시 특정 데이터 셋에 의한 데이터 편향이나 데이터 과적합 발생할 수 있음.)
 ![66666666666666666](https://github.com/user-attachments/assets/33ef9e2b-11f4-4728-8dfd-3ed34941a65e)
@@ -76,26 +82,35 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 - EV3 빨간 신호등 사진 원본 데이터
 ![result_image_grid (7)](https://github.com/user-attachments/assets/e0a58f3b-479f-4202-a30c-c7b79d9159f8)
 
+
 - EV3 초록 신호등 사진 원본 데이터
 ![result_image_grid (2)](https://github.com/user-attachments/assets/6f026c49-5648-4c08-9293-f99323b7cc1c)
+
 
 - EV3 빨간 신호등 사진 전체 블러링 데이터
 ![result_image_grid (11)](https://github.com/user-attachments/assets/a9677f3d-ab1d-465d-8845-0b2bfbb1243d)
 
+
 - EV3 초록 신호등 사진 전체 블러링 데이터
 ![result_image_grid (10)](https://github.com/user-attachments/assets/babbc883-b026-4c44-a1b0-54b6b07b34a6)
+
 
 - EV3 빨간 신호등 사진 객체 제외 블러링 데이터
 ![result_image_grid (8)](https://github.com/user-attachments/assets/496b9c63-7d3c-4537-85df-35b7d413c3f8)
 
+
 - EV3 초록 신호등 사진 객체 제외 블러링 데이터
 ![result_image_grid (9)](https://github.com/user-attachments/assets/3db2574f-16b7-4e9a-b9ae-2303e10ba05c)
 
+
 - EV3 빨간 신호등 사진 객체 탐지 실패 데이터 사례
   ![result_image_grid (12)](https://github.com/user-attachments/assets/ac341265-94c3-4002-8d04-ad8509f59f70)
-  
+
+
 - EV3 초록 신호등 사진 객체 탐지 실패 데이터 사례
   ![result_image_grid (13)](https://github.com/user-attachments/assets/5204ce20-6d21-477f-b19b-b6cc6a5b73f8)
+
+
 
 
 # 성능 비교 결과
@@ -113,6 +128,7 @@ HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 
 
 데이터 전처리를 진행하지 않은 데이터를 원본 데이터라 지칭했을때, 사진 전체에 블러링을 적용한 CNN 모델은 성능 향상이 이루어지지 않았음.  
 반면, 객체를 제외한 배경만을 블러링한 데이터를 바탕으로 CNN 분류 모델 학습을 진행했을때, 10~25 사이 에포크 구간에서 원본 데이터를 학습시킨 모델의 성능에 비해 성능 향상이 이루어짐.
+
 
 아래 사진은 데이터 전처리를 거치치 않은 원본 데이터를 학습시킨 모델, 배경 전체에 블러링을 적용한 데이터를 학습시킨 모델, 객체 제외하고 나머지 배경을 블러링한 데이터를 학습시킨 모델 3가지
 각각을 에포크 10,15,20,25에서 각각 10번씩 테스트를 진행했을때 나온 정확도와 로스의 평균을 비교한 그래프이다.
