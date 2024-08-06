@@ -28,7 +28,8 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
 
 
 -객체 제외 나머지 배경 블러링 코드 순서도
-![image](https://github.com/user-attachments/assets/0531a587-8b84-42ad-bcf0-2fff6ea3f4ee)
+![image](https://github.com/user-attachments/assets/e466eb19-aaad-4ff6-b534-a74dd1ec7d90)
+
 HSV변환을 적용하는 이유는 색상,명도,채도를 바탕으로 기존 RGB보다 더 다양한 영역의 초록색,빨간색을 인식할 수 있기 때문에, HSV 변환하여 마스킹을 적용.
 색상 마스킹을 활용하여 신호등을 찾기 위해, 사진내에서 찾은 마스킹들중 제일 큰 것을 신호등으로 인식하게 함.(다만 이 방법은 사진에 따라 다른 물체를 신호등으로 인식해서 나머지를 블러처리 한다는 한계점이 존재.)
 
