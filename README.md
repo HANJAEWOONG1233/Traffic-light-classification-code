@@ -25,7 +25,7 @@ CNN 모델 학습에 사용되는 가우시안 블러가 사용된 데이터의 
     ![image](https://github.com/user-attachments/assets/7c9e306b-c45c-419f-873a-d09f6b0b63c9)
 
 
-    //import cv2
+##import cv2
 import numpy as np
 from google.colab import files
 import os
@@ -121,7 +121,7 @@ for image_path in uploaded.keys():
 shutil.make_archive(output_folder, 'zip', output_folder)
 
 # 압축된 Zip 파일 다운로드
-files.download(f"{output_folder}.zip")//
+files.download(f"{output_folder}.zip")##
 
 
 
