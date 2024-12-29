@@ -140,7 +140,8 @@ The graph below compares the average accuracy and loss at epochs 10, 15, 20, and
 ### 📊 Detailed Metrics
 Analyzing the graph's metrics and summarizing them in a table:
 
-![Metrics Table](https://github.com/user-attachments/assets/4d8428fa-be45-4559-b0ae-59e57de25edb)
+<img width="495" alt="image" src="https://github.com/user-attachments/assets/75bb47f8-aeab-4c15-a67c-01fb1568477c" />
+
 
 **Insight**: Even with a 10% reduction in the number of images, using background-blurred preprocessing achieves equivalent or superior performance.
 
