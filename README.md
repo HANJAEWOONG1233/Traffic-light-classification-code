@@ -1,4 +1,4 @@
-# 🌟 Enhancing CNN Classification Model Performance Through Gaussian Blur Preprocessing Techniques 🌟
+#  Enhancing CNN Classification Model Performance Through Gaussian Blur Preprocessing Techniques 
 
 ## 🚀 Introduction
 
